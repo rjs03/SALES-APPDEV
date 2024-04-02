@@ -1,0 +1,22 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home Page
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  Username
+  <br>
+  <ion-input ([ngModel])="name"></ion-input>
+  Pass
+  <br>
+  <ion-input ([ngModel])="pass"></ion-input>
+  Repeat Pass
+  <br>
+  <ion-input ([ngModel])="rep"></ion-input>
+  <br>
+  <ion-button (click)="alert()"></ion-button>
+</ion-content>
