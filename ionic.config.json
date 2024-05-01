@@ -1,0 +1,7 @@
+{
+  "name": "ACT8_SALES",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
