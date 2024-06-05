@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <h2>Hi There!</h2>
+    <ion-button href = "my-custom-page/1"> Go by Link </ion-button>
+    <ion-button (click)="goToUserByEvent()">Go By Event</ion-button>
+  </div>
+</ion-content>
